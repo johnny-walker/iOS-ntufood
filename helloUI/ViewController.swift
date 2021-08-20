@@ -5,6 +5,8 @@
 //  Created by albert on 2021/8/19.
 //  Copyright © 2021 walker. All rights reserved.
 //
+// material design icons
+// https://fonts.google.com/icons
 
 import UIKit
 
@@ -18,7 +20,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var typeLable: UILabel!
     @IBOutlet weak var timeLabel: UILabel!
     @IBOutlet weak var meatLabel: UILabel!
-    @IBOutlet weak var stableLabel: UILabel!
+    @IBOutlet weak var stapleLabel: UILabel!
     @IBOutlet weak var dishesLabel: UILabel!
     
     
@@ -37,7 +39,7 @@ class ViewController: UIViewController {
             priceLabel.text = records[indexPath.row][3]
             timeLabel.text = records[indexPath.row][11]
             meatLabel.text = records[indexPath.row][8]
-            stableLabel.text = records[indexPath.row][6]
+            stapleLabel.text = records[indexPath.row][6]
             dishesLabel.text = records[indexPath.row][7]
         }
         //navigationItem.largeTitleDisplayMode = .never
